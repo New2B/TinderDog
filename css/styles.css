@@ -1,0 +1,184 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+/* HEADINGS */
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  z-index: 0;
+}
+
+.container-fluid {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 15%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat'
+}
+
+.btn {
+  font-size: 1.5rem;
+  margin-right: 3%;
+}
+
+/* title image */
+.iphone {
+  transform: rotate(10deg);
+  width: 50%;
+  left: 20%;
+  /* z-index: 0; */
+  position: absolute;
+}
+
+/* download button */
+/* Features */
+#features {
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  bottom: 105 px;
+}
+
+.feature-title {
+  font-size: 1.8rem;
+}
+
+.fas {
+  color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+/* testimonial sections */
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15% 2%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  height: 10%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 15px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 5% 10%;
+  font-family: "Montserrat";
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 0 3%;
+  color: #fff;
+}
+
+.footer2 {
+  margin: 3% 1% 3%;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 3% 0% 1%;
+  color: black;
+}
+
+.fa-envelope {
+  color: black;
+  padding: 0 5px 10px;
+}
+
+.fab {
+  padding: 0 5px 10px;
+}
+
+.cta-heading {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+}
