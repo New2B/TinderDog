@@ -36,6 +36,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 15%;
 }
 
+.title-row {
+  text-align: left;
+}
 /* navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
